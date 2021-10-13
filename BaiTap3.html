@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 3 Lab1</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p{
+            font-size: 30px;
+            text-align:center;
+            margin: auto;
+            color: white;
+            padding: 10px;
+        }
+        #container{
+            width: 900px;
+            margin: auto;
+        }
+        #container header{
+            height: 120px;
+            background: #b5764c;
+            border: 1.5px solid black;
+        }
+        #container nav{
+            margin-top: 20px;
+            height: 400px;
+            background: #a4a4a4;
+            border: 1.5px solid black;
+        }
+        #container #content{
+            background: white;
+            overflow: auto;
+        }
+        #container #content .our-services{
+            margin: 30px;
+        }
+        #container #content .our-services p{
+             color: black;
+            font-size: 40px;
+        }
+        #container #content .servicesBx{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        #container #content .servicesBx .services{
+            background: #a4a4a4;
+            margin: 30px;
+            width: 180px;
+            height: 220px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1.5px solid black;
+        }
+        #container footer{
+            height: 120px;
+            background: #3b5f87;
+            border: 1.5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <p>Header Section</p>
+            <p>900px - 120px</p>
+        </header>
+        <nav>
+            <p>Company Image</p>
+            <p>900px - 400px</p>
+            <p>designed by - gdatamart.com</p>
+        </nav>
+        <section id="content">
+            <div class="our-services">
+                <p>Our Services</p>
+            </div>
+            <div class="servicesBx">
+                <div class="services">
+                    <p>Services</p>
+                    <p>width:180px</p>
+                    <p>height:220px</p>
+                </div>
+                <div class="services">
+                    <p>Services</p>
+                </div>
+                <div class="services">
+                    <p>Services</p>
+                </div>
+                <div class="services">
+                    <p>Services</p>
+                </div>
+                <div class="services">
+                    <p>Services</p>
+                </div>
+                <div class="services">
+                    <p>Services</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Footer Section</p>
+            <p>900px - 120px</p>
+        </footer>
+    </div>
+</body>
+</html>
