@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2 Lab1</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p{
+            font-size: 30px;
+            text-align:center;
+            margin: auto;
+        }
+
+        #container{
+            background: rgb(44, 241, 44);
+            width: 1200px;
+            margin: auto;
+        }
+        #container header{
+            height: 100px;
+            background: rgb(25, 236, 236);
+            display: flex;
+        }
+        #container nav{
+            height: 50px;
+            background: rgb(57, 25, 199);
+            display: flex;
+        }
+        #container #content{
+            background: white;
+            overflow: auto;
+        }
+        #container #content #left-content{
+            float: left;
+            width: 25%;
+            height: 400px;
+            background: green;
+            display: flex;
+        }
+        #container #content #right-content{
+            float: right;
+            width: 75%;
+            height: 400px;
+            background: yellow;
+            display: flex;
+        }
+        #container footer{
+            height: 50px;
+            background: gray;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+        <header>
+            <p>Header Section</p>
+        </header>
+        <nav>
+            <p>Navigation Bar</p>
+        </nav>
+        <section id="content">
+            <div id="left-content">
+                <p>Index</p>
+            </div>
+            <div id="right-content">
+                <p>Content section</p>
+            </div>
+        </section>
+        <footer>
+            <p>Footer Section</p>
+        </footer>
+   </div>
+</body>
+</html>
