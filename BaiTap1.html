@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 1 Lab1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p,li {
+            font-size: 20px;
+            margin-top: auto;
+        }
+        #container{
+            border:2px solid black;
+            
+            margin: 1px;
+        }
+        #container header {
+             margin: 1px;
+             border: 1.5px solid black;
+             background-color: rgb(189, 189, 189);
+         }
+        #container header p{
+            font-size: 35px;
+        }
+        #container #content{
+            overflow: auto;
+        }
+        #container #content #menu {
+            background-color: khaki;
+            margin: auto;
+            width: 25%;
+            height: 300px;
+            float: left;
+            padding: 0;
+            border: 1.5px solid black;
+        }
+        #container #content #layout {
+            background-color: antiquewhite;
+            margin: auto;
+            width: 74.4%;
+            height: 300px;
+            float: right;
+            border: 1.5px solid black;
+        }
+        #container footer{
+            margin: 1px;
+            background-color: rgb(189, 189, 189);
+            border: 1.5px solid black;
+        }
+        #container footer p {
+            text-align: center;
+            margin: auto;
+        }
+        @media (max-width:1020px) {
+            #container #content #layout {
+                width: 74%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+        <p><b>PROCESS LAYOUT EXAMPLE</b></p>
+        </header>
+        <section id="content">
+            <ul id="menu">
+                <li><b>Main Menu</b></li>
+                <li>Link one</li>
+                <li>Link two</li>
+                <li>Link three</li>
+                <li>Link four</li>
+            </ul>
+            <div id="layout">
+                <p>This is an example layout using the tables.</p>
+            </div>
+        </section>
+        <footer>
+            <p>www.Example of layout using tables.com</p>
+        </footer>
+    </div>
+</body>
+</html>
